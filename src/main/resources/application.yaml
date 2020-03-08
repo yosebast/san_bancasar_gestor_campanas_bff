@@ -1,0 +1,15 @@
+project:
+  name: com.orange.excaliburosp.clientmicrolabjava.ClientmicrolabjavaApplication;
+server:
+  port: 9338
+
+
+spring:
+  codec:
+    max-in-memory-size: 10MB
+
+env:
+  caas:
+    base-url: http://localhost:9336
+    endpoint:
+      retrieve-payment: /v1/allmov
